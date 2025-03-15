@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shine Squad</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    /* Header / Hero Section */
+    header {
+      background: url('https://via.placeholder.com/1600x900') center/cover no-repeat;
+      /* Replace the above placeholder with a background image if desired */
+      padding: 2rem;
+      text-align: center;
+      color: #fff;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    }
+
+    /* Services Section */
+    section.services {
+      background-color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    section.services h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .service-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .service-item {
+      background-color: #fafafa;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 250px;
+    }
+    .service-item h3 {
+      margin-bottom: 0.5rem;
+      font-size: 1.2rem;
+    }
+    .service-item p {
+      font-size: 0.95rem;
+    }
+
+    /* Gallery Section */
+    section.gallery {
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    section.gallery h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .gallery-images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .gallery-images img {
+      max-width: 300px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* Contact Section */
+    section.contact {
+      background-color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    section.contact h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .contact-info {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    .contact-info p {
+      margin-bottom: 0.5rem;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header / Hero Section -->
+  <header>
+    <h1>Shine Squad</h1>
+    <p>Premium Car Cleaning &amp; Detailing Services</p>
+  </header>
+
+  <!-- Services Section -->
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-list">
+      <div class="service-item">
+        <h3>Snow Foam Pre-Wash</h3>
+        <p>A safe, touchless pre-wash to loosen dirt and grime before the hand wash.</p>
+      </div>
+      <div class="service-item">
+        <h3>Three-Bucket Hand Wash</h3>
+        <p>Careful hand wash using three buckets (wash, rinse, wheels) to avoid scratches.</p>
+      </div>
+      <div class="service-item">
+        <h3>Interior Cleaning</h3>
+        <p>Vacuuming, dusting, and wipe-down for a fresh interior feel.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery">
+    <h2>Our Work</h2>
+    <p>Check out some of our recent jobs.</p>
+    <div class="gallery-images">
+      <!-- Replace 'range-rover.jpg' with your actual image file or a hosted link -->
+      <img src="range-rover.jpg" alt="Recently Cleaned Range Rover" />
+      <!-- You can add more images like so:
+      <img src="car2.jpg" alt="Car 2" />
+      <img src="car3.jpg" alt="Car 3" />
+      -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <p>Phone: <strong>123-456-7890</strong></p>
+      <p>Email: <strong>contact@shinesquad.com</strong></p>
+      <p>We operate on weekends – book in advance to secure your slot!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Shine Squad. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
